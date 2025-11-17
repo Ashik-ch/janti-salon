@@ -1,0 +1,39 @@
+@import "tailwindcss";
+ 
+/* Basic styles for the application */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d1117; /* Dark background for futuristic feel */
+  color: #e6e6e6; /* Light text color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1e24;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #329ea6;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #257e84;
+}
+
+/* Additional global styles for links and buttons */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
