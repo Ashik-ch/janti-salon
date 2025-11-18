@@ -23,10 +23,10 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-8">
-          <li><Link to="/" className="text-white text-lg font-medium hover:text-primary transition duration-300">Home</Link></li>
-          <li><Link to="/services" className="text-white text-lg font-medium hover:text-primary transition duration-300">Services</Link></li>
-          <li><Link to="/about" className="text-white text-lg font-medium hover:text-primary transition duration-300">About</Link></li>
-          <li><Link to="/booking" className="text-white text-lg font-medium hover:text-primary transition duration-300">Booking</Link></li>
+          <li><Link to="/" className="text-white text-md font-light hover:text-primary transition duration-300">Home</Link></li>
+          <li><Link to="/services" className="text-white text-md font-light hover:text-primary transition duration-300">Services</Link></li>
+          <li><Link to="/about" className="text-white text-md font-light hover:text-primary transition duration-300">About</Link></li>
+          <li><Link to="/booking" className="text-white text-md font-light hover:text-primary transition duration-300">Booking</Link></li>
         </ul>
 
         {/* Mobile Menu Button */}

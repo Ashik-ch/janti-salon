@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const ServiceCard = ({ title, description, image }) => {
+const ServiceCard = ({ title, description, img }) => {
   return (
     <motion.div
       whileHover={{ scale: 1.03, boxShadow: "0 0 35px rgba(50, 158, 166, 0.6)", transition: { duration: 0.3 } }}
@@ -12,7 +12,7 @@ const ServiceCard = ({ title, description, image }) => {
     >
       <div className="relative w-full h-48 sm:h-56 overflow-hidden">
         <img
-          src={image || "https://via.placeholder.com/600x400?text=Service+Image"}
+          src={img || "https://via.placeholder.com/600x400?text=Service+Image"}
           alt={title}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-in-out"
         />

@@ -6,19 +6,19 @@ const teamMembers = [
     name: "Janti Al-Thani",
     role: "Founder & Lead Stylist",
     bio: "With a visionary approach, Janti brings over two decades of experience and a passion for redefining beauty standards in Qatar.",
-    image: "https://via.placeholder.com/300x300?text=Janti+Al-Thani" // Updated Placeholder image
+    image: "images/barber.jpg" // Updated Placeholder image
   },
   {
     name: "Sara Al-Farsi",
     role: "Creative Director",
     bio: "Sara's innovative techniques and artistic flair ensure every client leaves feeling spectacular and confident.",
-    image: "https://via.placeholder.com/300x300?text=Sara+Al-Farsi" // Updated Placeholder image
+    image: "images/barber.jpg" // Updated Placeholder image
   },
   {
     name: "Khalid Al-Majid",
     role: "Spa & Wellness Expert",
     bio: "Khalid curates a serene escape, offering bespoke spa treatments that harmonize ancient traditions with modern luxury.",
-    image: "https://via.placeholder.com/300x300?text=Khalid+Al-Majid" // Updated Placeholder image
+    image: "images/barber.jpg" // Updated Placeholder image
   }
 ];
 
@@ -60,7 +60,7 @@ const AboutPage = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="relative z-10"
         >
-          <h1 className="text-5xl md:text-6xl font-extrabold text-primary mb-4 drop-shadow-lg"
+          <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4 drop-shadow-lg"
             style={{ textShadow: '0 0 15px rgba(50, 158, 166, 0.8)' }}
           >
             Our Story
@@ -81,7 +81,7 @@ const AboutPage = () => {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="https://via.placeholder.com/600x400?text=Janti+Salon+History"
+              src="images/facial.jpg"
               alt="Janti Salon History"
               className="rounded-lg shadow-lg w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
             />
@@ -167,7 +167,7 @@ const AboutPage = () => {
             transition={{ duration: 0.8 }}
           >
             <img
-              src="https://via.placeholder.com/600x400?text=Qatari+Culture+meets+Future"
+              src="https://img.freepik.com/premium-photo/close-up-barber-holding-scissors_23-2148242850.jpg"
               alt="Qatari Culture meets Future"
               className="rounded-lg shadow-lg w-full h-auto object-cover transform hover:scale-105 transition-transform duration-500"
             />

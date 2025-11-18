@@ -6,22 +6,22 @@ const serviceCategories = [
   {
     title: "Hair Styling & Care",
     description: "Expert cuts, coloring, and treatments for all hair types. Discover your perfect style.",
-    image: "https://via.placeholder.com/600x400?text=Hair+Styling",
+    image: "images/hairStyling.jpg",
   },
   {
     title: "Makeup Artistry",
     description: "From natural enhancements to glamorous transformations for any occasion.",
-    image: "https://via.placeholder.com/600x400?text=Makeup+Artistry",
+    image: "images/facial.jpg",
   },
   {
     title: "Nail Enhancements",
     description: "Manicures, pedicures, and nail art using premium products.",
-    image: "https://via.placeholder.com/600x400?text=Nail+Enhancements",
+    image: "images/nailcare.jpg",
   },
   {
     title: "Luxurious Spa",
     description: "Rejuvenating body treatments, massages, and holistic therapies.",
-    image: "https://via.placeholder.com/600x400?text=Luxurious+Spa",
+    image: "images/spa.jpg",
   },
   {
     title: "Hair Treatments",

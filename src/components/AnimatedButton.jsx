@@ -8,8 +8,8 @@ const AnimatedButton = ({ children, onClick, className, type = "button" }) => {
       whileTap={{ scale: 0.95 }}
       onClick={onClick}
       type={type}
-      className={`relative px-8 py-3 rounded-full bg-gradient-to-r from-primary to-blue-400 text-white font-semibold text-lg overflow-hidden
-        hover:from-blue-400 hover:to-primary transform hover:-translate-y-1 transition-all duration-500 ease-in-out
+      className={`relative px-8 py-3 rounded-full bg-gradient-to-r from-primary to-teal-500 text-white font-semibold text-lg overflow-hidden
+        hover:from-teal-500 hover:to-primary transform hover:-translate-y-1 transition-all duration-500 ease-in-out
         focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-gray-900
         shadow-lg hover:shadow-primary-glow
         ${className}`}
