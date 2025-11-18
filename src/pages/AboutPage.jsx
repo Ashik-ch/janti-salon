@@ -6,19 +6,19 @@ const teamMembers = [
     name: "Janti Al-Thani",
     role: "Founder & Lead Stylist",
     bio: "With a visionary approach, Janti brings over two decades of experience and a passion for redefining beauty standards in Qatar.",
-    image: "images/barber.jpg" // Updated Placeholder image
+    image: "images/barber.jpg"
   },
   {
     name: "Sara Al-Farsi",
     role: "Creative Director",
     bio: "Sara's innovative techniques and artistic flair ensure every client leaves feeling spectacular and confident.",
-    image: "images/barber.jpg" // Updated Placeholder image
+    image: "images/barber.jpg"
   },
   {
     name: "Khalid Al-Majid",
     role: "Spa & Wellness Expert",
     bio: "Khalid curates a serene escape, offering bespoke spa treatments that harmonize ancient traditions with modern luxury.",
-    image: "images/barber.jpg" // Updated Placeholder image
+    image: "images/barber.jpg"
   }
 ];
 
