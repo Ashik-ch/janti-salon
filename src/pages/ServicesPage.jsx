@@ -55,7 +55,7 @@ const ServicesPage = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           className="relative z-10"
         >
-          <h1 className="text-5xl md:text-6xl font-extrabold text-primary mb-4 drop-shadow-lg"
+          <h1 className="text-5xl md:text-6xl font-bold text-primary mb-4 drop-shadow-lg"
             style={{ textShadow: '0 0 15px rgba(50, 158, 166, 0.8)' }}
           >
             Our Exquisite Services

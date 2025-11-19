@@ -26,6 +26,7 @@ const Navbar = () => {
           <li><Link to="/" className="text-white text-md font-light hover:text-primary transition duration-300">Home</Link></li>
           <li><Link to="services" className="text-white text-md font-light hover:text-primary transition duration-300">Services</Link></li>
           <li><Link to="about" className="text-white text-md font-light hover:text-primary transition duration-300">About</Link></li>
+          <li><Link to="landing" className="text-white text-md font-light hover:text-primary transition duration-300">Landing</Link></li>
           <li><Link to="booking" className="text-white text-md font-light hover:text-primary transition duration-300">Booking</Link></li>
         </ul>
 
@@ -51,6 +52,7 @@ const Navbar = () => {
           <li><Link to="/" className="text-white text-2xl font-medium hover:text-primary transition duration-300" onClick={toggleMenu}>Home</Link></li>
           <li><Link to="/services" className="text-white text-2xl font-medium hover:text-primary transition duration-300" onClick={toggleMenu}>Services</Link></li>
           <li><Link to="/about" className="text-white text-2xl font-medium hover:text-primary transition duration-300" onClick={toggleMenu}>About</Link></li>
+          <li><Link to="/landing" className="text-white text-2xl font-medium hover:text-primary transition duration-300" onClick={toggleMenu}>Landing</Link></li>
           <li><Link to="/booking" className="text-white text-2xl font-medium hover:text-primary transition duration-300" onClick={toggleMenu}>Booking</Link></li>
         </motion.div>
       )}

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import AnimatedButton from '../components/AnimatedButton';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialSlider from '../components/TestimonialSlider';
-import Hero from './Hero';
+import LandingPage from './LandingPage';
 
 const servicesPreview = [
   {
@@ -38,6 +38,8 @@ const HomePage = () => {
 
   return (
     <div>
+
+      <LandingPage />
       {/* <Hero /> */}
       <motion.div
         initial={{ opacity: 0 }}
@@ -45,87 +47,6 @@ const HomePage = () => {
         exit={{ opacity: 0 }}
         className="bg-gray-950 text-white"
       >
-        <section className="relative overflow-hidden bg-black text-white">
-          {/* Glow Effects */}
-          <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute w-72 h-72 bg-[#329ea6] opacity-30 blur-[150px] -top-10 -left-10"></div>
-            <div className="absolute w-80 h-80 bg-[#39d0d8] opacity-20 blur-[160px] bottom-0 right-0"></div>
-          </div>
-
-          <div className="container px-6 py-20 lg:py-36 relative z-10 flex flex-col lg:flex-row items-center gap-16 sm:gap-8">
-
-            {/* Left Content */}
-            <motion.div
-              initial={{ opacity: 0, x: -40 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              className="flex-1"
-            >
-              <motion.h1
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.2, duration: 0.8 }}
-                className="text-4xl lg:text-6xl font-bold leading-tight"
-              >
-                Experience <br />
-                <span className="bg-gradient-to-r from-[#329ea6] to-[#53d7e0] bg-clip-text text-transparent">
-                  Premium Beauty
-                </span>
-                <br />
-                at Janti Salon
-              </motion.h1>
-
-              <motion.p
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.5, duration: 0.8 }}
-                className="text-gray-300 mt-6 text-lg lg:w-3/4"
-              >
-                Qatar’s premium salon offering luxury hair styling, makeup, spa
-                treatments and beauty care — where elegance meets innovation.
-              </motion.p>
-
-              {/* CTA Buttons */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.7, duration: 0.8 }}
-                className="mt-8 flex gap-4"
-              >
-                <button className="px-6 py-3 rounded-full bg-[#329ea6] hover:bg-[#2a848b] transition-all duration-300 text-white font-semibold shadow-lg shadow-[#329ea6]/40">
-                  Book Now
-                </button>
-
-                <button className="px-6 py-3 rounded-full border border-gray-300 text-white hover:bg-white hover:text-teal-500 transition-all duration-300">
-                  View Services
-                </button>
-              </motion.div>
-            </motion.div>
-
-            {/* Right Image with Motion */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 1, ease: "easeOut" }}
-              className="flex-1 relative"
-            >
-              <motion.img
-                src="https://images.fresha.com/lead-images/placeholders/barbershop-54.jpg?class=venue-gallery-large"
-                alt="Janti Salon"
-                className="rounded-3xl shadow-2xl shadow-[#329ea6]/50 w-full object-cover"
-                whileHover={{ scale: 1.03 }}
-                transition={{ type: "spring", stiffness: 120 }}
-              />
-
-              {/* Floating Glow */}
-              <motion.div
-                className="absolute -bottom-5 -right-5 w-32 h-32 bg-[#329ea6] opacity-40 blur-3xl rounded-full"
-                animate={{ y: [0, -10, 0], opacity: [0.3, 0.6, 0.3] }}
-                transition={{ repeat: Infinity, duration: 4 }}
-              />
-            </motion.div>
-          </div>
-        </section>
 
         {/* Services Preview Section */}
         <section className="w-full max-w-7xl mx-auto py-20 px-4">

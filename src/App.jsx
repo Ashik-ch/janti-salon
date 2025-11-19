@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import BookingPage from './pages/BookingPage';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Hero from './pages/Hero';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/landing" element={<Hero />} />
             <Route path="/booking" element={<BookingPage />} />
           </Routes>
         </main>
