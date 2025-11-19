@@ -13,7 +13,7 @@ const BookingPage = () => {
       {/* Hero Section for Booking */}
       <section
         className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-center px-4"
-        style={{ backgroundImage: 'url(https://via.placeholder.com/1920x720?text=Book+Your+Appointment)' }}
+        style={{ backgroundImage: 'url(https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20965.jpg?uid=R209241097&ga=GA1.1.136895706.1708360816&semt=ais_incoming&w=740&q=80)' }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <motion.div

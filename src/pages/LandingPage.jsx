@@ -46,8 +46,8 @@ const LandingPage = () => {
                     className="text-[4rem] md:text-[6rem] leading-[0.9] font-black tracking-tight 
                      mix-blend-difference font-[Montserrat]"
                 >
-                    <span className="text-7xl text-white me-6">JANTI</span>
-                    <span className="text-7xl font-extrabold text-transparent stroke-aqua stroke-[2px]">
+                    <span className="text-9xl  text-white me-6">JANTI</span>
+                    <span className="text-9xl  font-extrabold text-transparent stroke-aqua stroke-[2px]">
                         SALON                </span>
 
                 </motion.h1>
@@ -57,7 +57,7 @@ const LandingPage = () => {
                     initial={{ opacity: 0, x: -40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.4 }}
-                    className="mt-6 text-lg text-white /70 max-w-md font-light futuristic-text"
+                    className="mt-6 text-xl text-white /70 max-w-md font-light futuristic-text"
                 >
                     Beauty redefined with <span className="text-[#4bd1da]">precision</span>,
                     <br />

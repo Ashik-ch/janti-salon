@@ -12,7 +12,8 @@ function App() {
 
   return (
     <Router basename="/janti-salon">
-      <div className="flex flex-col min-h-screen">
+
+      <div className="custom-cursor flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">
           <Routes>

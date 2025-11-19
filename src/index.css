@@ -84,3 +84,8 @@ button:focus-visible {
 .stroke-aqua {
   -webkit-text-stroke: 1px #329ea6;
 }
+
+
+.custom-cursor {
+  cursor: url('/images/cursor.png'), auto;
+}

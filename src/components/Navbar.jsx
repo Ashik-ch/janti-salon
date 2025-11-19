@@ -17,9 +17,17 @@ const Navbar = () => {
       className="fixed top-0 z-50 w-full bg-gradient-to-r from-gray-900 via-gray-800 to-black shadow-xl"
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center relative">
-        <Link to="/" className="text-3xl font-extrabold text-primary tracking-widest uppercase hover:text-white transition duration-300">
+        <Link to="/" className="text-2xl font-light tracking-[0.25em] uppercase text-white hover:text-primary transition duration-300"        >
           Janti Salon
         </Link>
+
+        <Link
+          to="/"
+          className="text-3xl font-semibold tracking-[0.15em] uppercase text-white hover:text-primary transition duration-300"
+        >
+          Janti Salon
+        </Link>
+
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-8">
