@@ -6,22 +6,22 @@ const serviceCategories = [
   {
     title: "Hair Styling & Care",
     description: "Expert cuts, coloring, and treatments for all hair types. Discover your perfect style.",
-    image: "images/hairStyling.jpg",
+    image: "https://i0.wp.com/bekkybarber.com/ae/wp-content/uploads/sites/2/2025/05/handsome-man-cutting-beard-barber-shop-salon-1.jpg?fit=1200%2C800&ssl=1",
   },
   {
     title: "Makeup Artistry",
     description: "From natural enhancements to glamorous transformations for any occasion.",
-    image: "images/facial.jpg",
+    image: "https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20965.jpg?uid=R209241097&ga=GA1.1.136895706.1708360816&semt=ais_incoming&w=740&q=80",
   },
   {
     title: "Nail Enhancements",
     description: "Manicures, pedicures, and nail art using premium products.",
-    image: "images/nailcare.jpg",
+    image: "https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20965.jpg?uid=R209241097&ga=GA1.1.136895706.1708360816&semt=ais_incoming&w=740&q=80",
   },
   {
     title: "Luxurious Spa",
     description: "Rejuvenating body treatments, massages, and holistic therapies.",
-    image: "images/spa.jpg",
+    image: "https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20965.jpg?uid=R209241097&ga=GA1.1.136895706.1708360816&semt=ais_incoming&w=740&q=80",
   },
   {
     title: "Hair Treatments",
@@ -46,7 +46,7 @@ const ServicesPage = () => {
       {/* Hero Section for Services */}
       <section
         className="relative h-[50vh] bg-cover bg-center flex items-center justify-center text-center px-4"
-        style={{ backgroundImage: 'url(https://via.placeholder.com/1920x720?text=Janti+Salon+Services)' }}
+        style={{ backgroundImage: 'url(https://img.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_1303-20965.jpg?uid=R209241097&ga=GA1.1.136895706.1708360816&semt=ais_incoming&w=740&q=80)' }}
       >
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <motion.div

@@ -12,7 +12,7 @@ const ServiceCard = ({ title, description, img }) => {
     >
       <div className="relative w-full h-48 sm:h-56 overflow-hidden">
         <img
-          src={img || "https://via.placeholder.com/600x400?text=Service+Image"}
+          src={img || "https://i0.wp.com/bekkybarber.com/ae/wp-content/uploads/sites/2/2025/05/handsome-man-cutting-beard-barber-shop-salon-1.jpg?fit=1200%2C800&ssl=1"}
           alt={title}
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500 ease-in-out"
         />
