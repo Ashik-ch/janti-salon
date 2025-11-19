@@ -21,12 +21,7 @@ const Navbar = () => {
           Janti Salon
         </Link>
 
-        <Link
-          to="/"
-          className="text-3xl font-semibold tracking-[0.15em] uppercase text-white hover:text-primary transition duration-300"
-        >
-          Janti Salon
-        </Link>
+
 
 
         {/* Desktop Navigation */}

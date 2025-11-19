@@ -21,7 +21,7 @@ const LandingPage = () => {
             />
 
             {/* Holographic Grid */}
-            <div className="absolute inset-0 opacity-[0.08]" style={{
+            <div className="absolute inset-0 opacity-[0.35]" style={{
                 backgroundImage: "linear-gradient(#329ea6 1px, transparent 1px), linear-gradient(90deg, #329ea6 1px, transparent 1px)",
                 backgroundSize: "60px 60px"
             }}></div>
@@ -47,7 +47,7 @@ const LandingPage = () => {
                      mix-blend-difference font-[Montserrat]"
                 >
                     <span className="text-9xl  text-white me-6">JANTI</span>
-                    <span className="text-9xl  font-extrabold text-transparent stroke-aqua stroke-[2px]">
+                    <span className="text-9xl  font-extrabold text-[#329ea6] tracking-widest">
                         SALON                </span>
 
                 </motion.h1>
