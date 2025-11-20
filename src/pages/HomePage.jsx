@@ -5,6 +5,7 @@ import AnimatedButton from '../components/AnimatedButton';
 import ServiceCard from '../components/ServiceCard';
 import TestimonialSlider from '../components/TestimonialSlider';
 import LandingPage from './LandingPage';
+import MagicBento from '../reactBits/magicBento';
 
 const servicesPreview = [
   {
@@ -25,7 +26,6 @@ const servicesPreview = [
     description: "Exquisite manicures and pedicures for perfect nails.",
     icon: "💅",
     img: 'images/nailcare.jpg',
-
   },
 ];
 
@@ -53,8 +53,10 @@ const HomePage = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-primary drop-shadow-md">
             Our Premier Services
           </h2>
+          {/* <motion.div
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10" */}
           <motion.div
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10"
+            className="grid gap-10"
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
@@ -63,18 +65,15 @@ const HomePage = () => {
               visible: { opacity: 1, transition: { staggerChildren: 0.1 } },
             }}
           >
-            {servicesPreview.map((service, index) => (
-              <motion.div
-                key={index}
-                variants={{
-                  hidden: { opacity: 0, y: 50 },
-                  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
-                }}
-              >
-                <ServiceCard {...service} />
-                {/* {{ ServiceCard | json}} */}
-              </motion.div>
-            ))}
+            <MagicBento
+              enableStars
+              enableTilt
+              enableSpotlight
+              enableBorderGlow
+              glowColor="132, 0, 255"
+              className="p-4 rounded-xl"
+            >
+            </MagicBento>
           </motion.div>
         </section>
 

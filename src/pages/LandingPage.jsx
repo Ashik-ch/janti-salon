@@ -38,7 +38,7 @@ const LandingPage = () => {
                     ★ Premium Salon Experience
                 </motion.span>
 
-                {/* Extreme Futuristic Title */}
+                {/* Main Title */}
                 <motion.h1
                     initial={{ opacity: 0, x: -60 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -46,25 +46,25 @@ const LandingPage = () => {
                     className="text-[4rem] md:text-[6rem] leading-[0.9] font-black tracking-tight 
                      mix-blend-difference font-[Montserrat]"
                 >
-                    <span className="text-9xl  text-white me-6">JANTI</span>
-                    <span className="text-9xl  font-extrabold text-[#329ea6] tracking-widest">
-                        SALON                </span>
-
+                    <span className="text-9xl text-white me-6 tracking-widest">JANTI</span>
+                    <span className="text-9xl font-extrabold text-[#329ea6] tracking-widest">
+                        SALON
+                    </span>
                 </motion.h1>
 
-                {/* Subtext with Glitch Tick */}
+                {/* Subtitle */}
                 <motion.p
                     initial={{ opacity: 0, x: -40 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ delay: 0.4 }}
-                    className="mt-6 text-xl text-white /70 max-w-md font-light futuristic-text"
+                    className="mt-6 text-xl text-white/70 max-w-md font-light"
                 >
                     Beauty redefined with <span className="text-[#4bd1da]">precision</span>,
                     <br />
                     crafted for a new era.
                 </motion.p>
 
-                {/* Neon Button */}
+                {/* Button */}
                 <motion.button
                     whileHover={{ scale: 1.1, boxShadow: "0 0 25px #329ea6" }}
                     whileTap={{ scale: 0.92 }}
@@ -75,24 +75,23 @@ const LandingPage = () => {
                     Book Appointment
                 </motion.button>
 
-
-
-
             </div>
 
-            {/* Floating Holographic Shards */}
+            {/* Floating Shards */}
             <FloatingShard delay={0} size={40} x="70%" y="20%" />
             <FloatingShard delay={1} size={60} x="85%" y="60%" />
             <FloatingShard delay={2} size={30} x="50%" y="80%" />
-        </div >
+        </div>
     );
-}
+};
 
+
+// FLOATING SHARDS COMPONENT
 const FloatingShard = ({ size, x, y, delay }) => (
     <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: [0.3, 0.8, 0.3], y: [-10, 10, -10] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay }}
+        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay, }}
         className="absolute bg-[#329ea6] blur-xl rounded-xl"
         style={{
             width: size,
@@ -100,8 +99,9 @@ const FloatingShard = ({ size, x, y, delay }) => (
             left: x,
             top: y,
             rotate: "20deg",
-            opacity: 0.5
+            opacity: 0.5,
         }}
     />
 );
+
 export default LandingPage;

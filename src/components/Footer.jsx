@@ -45,7 +45,7 @@ const Footer = () => {
 
       <div className="mt-8 border-t border-gray-700 pt-8 text-center text-gray-500 text-sm">
         <p>&copy; {new Date().getFullYear()} Janti Salon. All rights reserved.</p>
-        <p className="mt-1">Designed with luxury and future in mind.</p>
+        <p className="mt-1">Designed by BytrixHub.</p>
       </div>
     </motion.footer>
   );
